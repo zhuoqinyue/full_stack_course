@@ -20,6 +20,19 @@ git config --list
     fetch = +refs/heads/*:refs/remotes/origin/*
 ```
 
+设置 `npm` 源
+
+```bash
+## 获取 npm 镜像
+npm config get registry
+
+## 设置为 taobao 镜像
+npm config set registry https://registry.npmmirror.com'
+
+```
+
+> 该项目使用的 npm 版本为 22.3.0, 自己使用 nvm 管理
+
 ## 运行项目
 该项目有前后端项目, 使用的时候需要同时启动
 - `ex_ba` 代表后端项目
