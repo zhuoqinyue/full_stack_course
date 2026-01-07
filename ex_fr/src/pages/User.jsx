@@ -25,13 +25,13 @@ const User = () => {
         <CardContent>
           <ul>
             <li className="mb-2">
-              <Link to="/">
-                <a className="text-blue-500 hover:underline">Home</a>
+              <Link to="/" className="text-blue-500 hover:underline">
+                Home
               </Link>
             </li>
             <li>
-              <Link to="/notes">
-                <a className="text-blue-500 hover:underline">Notes</a>
+              <Link to="/notes" className="text-blue-500 hover:underline">
+                Notes
               </Link>
             </li>
           </ul>

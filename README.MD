@@ -3,13 +3,14 @@
 
 ## 设置
 
+### git 单独配置
 设置单独的 git 配置
 
 ```bash
 git config user.name "私人的邮箱"
 git config user.email "私人的用户名"
 
-# 查看该仓库的配置
+## 查看该仓库的配置
 git config --list
 ```
 
@@ -20,8 +21,9 @@ git config --list
     fetch = +refs/heads/*:refs/remotes/origin/*
 ```
 
-设置 `npm` 源
+根目录是 git 仓库根目录, 它会搜索各个子目录下的 `.gitignore` 文件进行忽略
 
+### 设置 `npm` 源
 ```bash
 ## 获取 npm 镜像
 npm config get registry
